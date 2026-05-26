@@ -6,10 +6,3 @@ export default defineConfig({
   plugins: [react()],
   base: '/pokemon-search/'
 })
-
-// Update if requiring
-// -path aliases
-// -proxy rules
-// -custom base path
-// -plugins
-// -build tweaks
