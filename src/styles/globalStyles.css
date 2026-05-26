@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional reusable styles */
+@layer components {
+
+  .filter-panel-container {
+    @apply
+      sticky top-[42px] sm:top-[68px]
+      z-40
+      p-1 sm:p-2
+      mx-auto my-1 sm:my-3 
+      w-fit
+      bg-blue-950
+      rounded-lg
+      shadow-md;
+  }
+
+  .search-container {
+    @apply
+      flex
+      justify-center
+      items-center
+      p-1;
+  }
+
+  .search-input {
+    @apply
+      w-full
+      p-1 
+      mb-1
+      border 
+      shadow 
+      rounded-[8px]
+      font-content
+      font-semibold
+      bg-cyan-50
+      focus:outline-none
+      focus:ring-2
+      focus:ring-amber-300
+      focus:ring-inset;
+  }
+
+  .filter-button-container {
+    @apply
+      grid grid-cols-5 xl:grid-cols-8
+      gap-1 sm:gap-1
+      place-items-center
+      content-center
+      p-1;
+  }
+
+  .type-button {
+    @apply
+      p-1
+      w-[92px] sm:w-[95px]
+      min-w-10 
+      border-2 border-zinc-800
+      hover:bg-opacity-50 
+      rounded
+      shadow-[inset_0_-2px_4px_rgba(0,0,0,0.35),inset_0_2px_2px_rgba(255,255,255,0.2)]
+      text-xs sm:text-base
+      font-content
+      text-center
+      text-neutral-100;
+  }
+
+  .selected {
+    @apply 
+      border-green-50
+      shadow-[inset_0_0_5px_3px_rgba(0,0,0,0.35)];
+  }
+
+}
