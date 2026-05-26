@@ -11,9 +11,6 @@ import { usePokemonFilters } from './hooks/usePokemonFilters';
 
 export default function App() {
 
-  console.log(import.meta.env);
-  console.log(import.meta.env.VITE_USE_MOCK_DATA);
-
   const { pokemon, loading, error } = usePokemonList();
 
   const {
