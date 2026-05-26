@@ -63,7 +63,7 @@ export default function PokemonCardGrid({pokemon, loading, error, onPokemonClick
             fixed
             w-14
             h-6
-            bottom-3
+            bottom-4
             rounded-lg
             bg-opacity-60
             left-1/2 -translate-x-1/2
