@@ -62,10 +62,10 @@ export default function PokemonCardGrid({pokemon, loading, error, onPokemonClick
             bg-blue-950
             fixed
             w-14
-            h-8
-            bottom-4
+            h-6
+            bottom-3
             rounded-lg
-            bg-opacity-75
+            bg-opacity-60
             left-1/2 -translate-x-1/2
             z-50
             pointer-events-none
@@ -75,7 +75,7 @@ export default function PokemonCardGrid({pokemon, loading, error, onPokemonClick
                 alt="Scroll Down"
                 className="
                 relative
-                -top-3
+                -top-4
                 w-10
                 h-10
                 animate-pulse
