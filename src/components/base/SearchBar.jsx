@@ -10,7 +10,7 @@ export default function SearchBar({value, onChange}) {
             placeholder="Search Pokémon..." 
             className="search-input" 
             />
-            <svg className="absolute text-slate-400 h-5 w-5 top-3 right-3 fill-current cursor-text pointer-events-none"
+            <svg className="absolute text-slate-400 opacity-70 h-5 w-5 top-3 right-3 fill-current cursor-text pointer-events-none"
                 xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1"
                 x="0px" y="0px" viewBox="0 0 56.966 56.966"
                 xmlSpace="preserve">

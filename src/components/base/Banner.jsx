@@ -1,3 +1,4 @@
+import pokeballNormal from '../../icons/pokeball-normal.svg';
 
 export default function Banner() {
     
@@ -11,6 +12,7 @@ export default function Banner() {
         border-amber-300
         cursor-default
         ">
+
             <div className="
             relative
             flex
@@ -22,6 +24,14 @@ export default function Banner() {
             xl:max-w-6xl
             p-1 sm:p-3
             ">
+
+                <img src={pokeballNormal} alt="Pokéball Icon" className="
+                absolute
+                w-4 sm:w-6
+                h-4 sm:h-6
+                left-5
+                "/>
+
                 <h1 className="
                 text-2xl sm:text-4xl
                 font-banner
@@ -31,10 +41,11 @@ export default function Banner() {
                 ">
                     Pokémon Search
                 </h1>
+
                 <p className="
                 absolute
                 top-3 sm:top-5
-                right-4
+                right-5
                 font-content
                 font-bold
                 text-xs sm:text-base
@@ -43,7 +54,9 @@ export default function Banner() {
                 ">
                     GEN. 1
                 </p>
+
             </div>
+
         </header>
     )
 }

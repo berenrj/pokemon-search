@@ -22,6 +22,8 @@
       flex
       justify-center
       items-center
+      md:max-w-xl
+      mx-auto
       p-1;
   }
 
